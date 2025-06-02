@@ -30,7 +30,16 @@
    
    `CHAT_ID` - номер телефона пользователя WhatsApp, на который будут приходить сообщения (@c.us — личный чат с номером; @g.us — групповой чат, созданный в WhatsApp).
    
-## Запуск тестов
+## Запуск проекта и тестов
+
+1. Скачайте репозиторий:
+   ```bash
+   git clone https://github.com/fedenko03/green-api-tests.git
+   ```
+2. Перейдите в папку проекта:
+   ```bash
+   cd green-api-tests
+   ```
 
 - **Запуск всех тестов**:
   ```bash
@@ -42,7 +51,7 @@
   ```bash
   npm test имя_теста
   ```
-  Например, npm test sendEmptyMessage
+  Например, `npm test sendEmptyMessage`
 
 ## Дополнительная информация
 
